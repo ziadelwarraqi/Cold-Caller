@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cold Caller</title>
+</head>
+<body>
+    
+
+    <div class="container">
+  
+       <h1>C</h1>
+        <span>Developed By <a class="founder" href="https://instagram.com/ziadmohammadd">Ziad El Warraqi</a> </span>
+        
+        <textarea id="inputText" placeholder="Enter phone numbers (one per line)"></textarea>
+        <input id="inputNames" placeholder="Optional: Enter names separated by commas">
+        <button onclick="processContacts()">Add Contacts</button>
+        <button class="clear-btn" onclick="clearAllContacts()">Clear All</button>
+        <button class="auto-dial-btn" onclick="autoDialAll()">Auto Dial</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Phone Number</th>
+              <th>Name</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="contactsTable">
+            <!-- Contacts will be displayed here -->
+          </tbody>
+        </table>
+      </div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>

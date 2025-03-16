@@ -1,0 +1,86 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+h1 {
+  font-family: ADLaM Display;
+
+}
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  textarea, input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .clear-btn {
+    background-color: #f44336;
+  }
+  .clear-btn:hover {
+    background-color: #d32f2f;
+  }
+  .auto-dial-btn {
+    background-color: #ff9800;
+  }
+  .auto-dial-btn:hover {
+    background-color: #fb8c00;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #333;
+  }
+  .status-light {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .green-light {
+    background-color: green;
+  }
+  .red-light {
+    background-color: red;
+  }
+  .orange-light {
+    background-color: orange;
+  }
+  
+  .founder {
+      text-decoration: none;
+      color: white;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 5px;
+  }
